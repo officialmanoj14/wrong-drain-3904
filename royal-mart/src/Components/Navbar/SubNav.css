@@ -1,0 +1,22 @@
+.Subnav{
+    display:flex;
+justify-content:center;
+margin:auto;
+border:1px solid #e6dede;
+align-items: center;
+height:6.3vh;
+background-color: #ffffff;
+gap:2vw;
+font-weight:400;
+color:gray;
+font-size:15px;
+margin-top:63px;
+}
+
+/* p:hover{
+    border-bottom:3px solid #fc3581;
+    cursor:pointer;
+    padding:1.7vh 0 1.7vh 0;
+    color:#fc3581;
+    font-weight:600;
+} */

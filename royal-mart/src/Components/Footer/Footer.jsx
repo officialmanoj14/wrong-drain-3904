@@ -4,49 +4,153 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-    <div className='footer-div'>
-      <div className='footer-div-1'>
-        <h1>Want style Idea and Treats?</h1>
-        <div className='mail-div'>
-          <input type="email" placeholder='Enter Email * ' />
-          <button>Subscribe</button>
-        </div> 
-      </div>
-      <div>
+      <div className="box">
+
         <div>
-          <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/uboric.png" alt="Image not found" />
+          <div className="box1">
+            <p>Get special discount on your inbox</p>
+          </div>
+          <div className="box3">
+            <input type="email" placeholder='Your Email' />
+            <button>SEND</button>
+          </div>
+        </div>
+
+
+        <div>
+          <div className="box1">
+            <p>EXPERIENCE THE NYKAA MOBILE <br />APP</p>
+          </div>
+          <div className="box4">
+            <img src="https://hotelprojectleads.com/wp-content/uploads/2020/05/google-play-badge-e1522090059399.png" alt="" />
+            <img src="https://hotelprojectleads.com/wp-content/uploads/2020/05/app-store-e1522090081753.png" alt="" />
+          </div>
+
         </div>
         <div>
-          <h3>SUPPORT</h3>
-          <p>About Us</p>
+          <div className="box1">
+            <p>FOR ANY HELP YOU MAY CALL US AT <br />1800-267-4444</p>
+          </div>
+          <p style={{ marginLeft: "2vw", color: 'white' }}>(Monday to Saturday, 8AM to 10PM and Sunday, 10AM to<br /> 7PM)</p>
+
+        </div>
+      </div>
+      <div className="box5">
+        <div>
+          <img src="https://cdn.iconscout.com/icon/free/png-256/nykaa-3384872-2822953.png" style={{ height: "12vh", color:"white"}} alt="" />
+          <p>Who are we?</p>
+          <p>Careers</p>
+          <p>Authenticity</p>
+          <p>Press</p>
+          <p>Testimonials</p>
+          <p>Nykaa CSR</p>
+          <p>Responsible Disclosure</p>
+          <p>Investor Relations</p>
+        </div>
+        <div>
+          <h4>Help</h4>
           <p>Contact Us</p>
+          <p>Frequently asked questions</p>
+          <p>Store Locator</p>
+          <p>Cancellation & Return</p>
+          <p>Shipping & Delivery</p>
+          <p>Sell on Nykaa</p>
+
         </div>
         <div>
-          <h3>SHOP</h3>
-          <p>My Account</p>
+          <h4>Inspire Me</h4>
+          <p>Beauty Book</p>
+          <p>Nykaa TV</p>
+          <p>Nykaa Network</p>
+          <p>Buying Guides</p>
         </div>
         <div>
-          <h3>COMPANY</h3>
-          <p>Shipping & Returns</p>
-          <p>privacy Policy</p>
+          <h4>Quick Links</h4>
+          <p>Offer Zone</p>
+          <p>New Launches</p>
+          <p>Nykaa Man</p>
+          <p>Nykaa Fashion</p>
+          <p>Nykaa Pro</p>
+          <p>Nykaa femina beauty awards <br /> winners 2019</p>
+          <p>Sitemap</p>
+        </div>
+        <div>
+          <h4>Top Categories</h4>
+          <p>Makeup</p>
+          <p>Skin</p>
+          <p>Hair</p>
+          <p>Personal Care</p>
+          <p>Appliances</p>
+          <p>Mom and Baby</p>
+          <p>Wellness</p>
+          <p>Fragrance</p>
+          <p>Natura</p>
+          <p>Luxe</p>
+        </div>
+      </div>
+      <div className="box6">
+        <div>
+          <div>
+            <img style={{ marginTop: "2vh" }} src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Free-shipping.svg" alt="" />
+          </div>
+          <div>
+            <h4 style={{ marginBottom: "0.5vh" }}>FREE SHIPPING</h4>
+            <hr />
+            <p style={{ marginTop: "0.5vh" }}>On Orders Above<br /> ₹299</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img style={{ marginTop: "2vh" }} src="https://adn-static2.nykaa.com/media/wysiwyg/2021/return_accepted.svg" alt="" />
+          </div>
+          <div>
+            <h4 style={{ marginBottom: "0.5vh" }}>EASY RETURNS</h4>
+            <hr />
+            <p style={{ marginTop: "0.5vh" }}>15-Day Return Policy</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img style={{ marginTop: "2vh" }} src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Authenticity.svg" alt="" />
+          </div>
+          <div>
+            <h4 style={{ marginBottom: "0.5vh" }}>100% <br /> AUTHENTIC</h4>
+            <hr />
+            <p style={{ marginTop: "0.5vh" }}>Products Sourced Directly</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img style={{ marginTop: "2vh" }} src="https://adn-static2.nykaa.com/media/wysiwyg/2021/Brands.svg" alt="" />
+          </div>
+          <div>
+            <h4 style={{ marginBottom: "0.5vh" }}>2400+ BRANDS</h4>
+            <hr />
+            <p style={{ marginTop: "0.5vh" }}>1.9 Lakh+ Products</p>
+          </div>
+        </div>
+        <div>
+          <div >
+            <div>
+              <p>Show us some love ❤ on social <br /> media</p>
+            </div>
+            <div style={{ display: "flex", gap: '1.5vw' }}>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{background:"#fc3581", color:"white",padding:"5px 0px 20px 0px"}}>
+        <div className="box7">
           <p>Terms & Conditions</p>
+          <p>Shipping Policy</p>
+          <p>Cancellation Policy</p>
+          <p>Privacy Policy</p>
         </div>
-        <div>
-          <h3>Contact</h3>
-          <p>Customer Care</p>
-          <p>Contact Support Available</p>
-          <p>Mon To Sat : 10:00 Am to 6:00Pm</p>
-          <p>E-mail</p>
-          <p>royalmart@gmail.com</p>
-          <p>Mobile</p>
-          <p>+91 87960 67458</p>
-          <p>+91 92642 18989</p>
+        <div className="box7">
+        © 2022 Nykaa E-Retail Pvt. Ltd. All Rights Reserved.
         </div>
       </div>
-      <div>
-        <p>© 2019 – 2022 UBORIC. ALL RIGHTS RESERVED.</p>
-      </div>
-    </div>
+
     </>
   )
 }

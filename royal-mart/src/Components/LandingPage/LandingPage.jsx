@@ -1,14 +1,19 @@
 import React from 'react';
+import Home from "./Home.jsx"
 import Footer from '../Footer/Footer';
-import Navbar from '../Navbar/Navbar';
+import MainNav from '../Navbar/MainNav';
+
+
 
 const LandingPage = () => {
   return (
     <div>
-      <Navbar/>
+      <MainNav/>
+      <Home/>
       <Footer/>
     </div>
+
   )
 }
 
-export default LandingPage
+export default LandingPage;
