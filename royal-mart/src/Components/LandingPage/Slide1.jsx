@@ -15,11 +15,11 @@ const slideImages = [
 const Slide1 = () => {
   const [selectedImage, setSelectedImage] = useState(0);
 
-//   useEffect(() => {
-//     setInterval(() => {
-//        setSelectedImage(selectedImage < 5 ? (selectedImage+1) : 0);
-//     },4000);
-// });
+  useEffect(() => {
+    setInterval(() => {
+       setSelectedImage(selectedImage < 5 ? (selectedImage+1) : 0);
+    },4000);
+});
   return (
     <div className="slidecontainer">
       <img src={slideImages[selectedImage]} alt="Images not found" className="slideImage"/>
